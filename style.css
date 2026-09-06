@@ -1,0 +1,266 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+     font-family: Arial,
+sans-serif;
+     background: #f5f7fa;
+     color: #222;
+     text-align: center;
+}
+
+/* Navigation */
+nav {
+    background:  #123c69;
+    padding: 18px 10px;
+    position: sticky;
+    top; 0;
+    z-index: 1000;
+
+}
+
+.logo {
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 12px;
+}
+
+.menu a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 0 12px; 
+      font-size: 17px;
+      font-weight: bold;
+      
+}
+
+.menu a:hover {
+      color: #ffd700;
+}
+
+/* General sections */
+section {
+    padding: 70px 20px
+}
+
+
+h1 {
+    font-size: 45px;    
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-size:35px;
+    color: #123c69;
+    margin-bottom: 25px;
+}
+
+/* Home / Hero */
+.hero {
+    background:
+linear-gradient(135deg, #fff3b0, #ffd84d);
+
+      min-height: 500px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 80px 20px;  
+}
+
+.demo-label {
+      background: yellow;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 20px    
+      font-weight: bold;
+      margin-bottom: 20px;
+}
+
+.hero h1 {
+        color: #123c69;
+        max-width: 900px;
+}
+
+.hero p {
+      max-width: 800px;
+      margin-bottom: 25px; 
+   
+}
+
+/* Button */
+.button {
+      display: inline-block;
+      background: #123c69;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px
+      text-decoration: none;    
+      font-weight: bold;
+      font-size: 18px;
+}
+
+/* About */
+#about {
+    background: white;
+       
+}
+
+#about p {
+       max-width: 800px;
+       margin: auto;
+}
+
+/* Services */
+#services {
+      background: #f1f5f9;
+}
+
+.cards {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     flex-warp: warp;
+}
+
+.card {
+     background: white;
+     width: 300px;
+     padding: 30px 20px;
+     border-radius: 15px;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+
+}
+
+.card h3 {
+      color: #123c69;
+      margin-bottom: 15px;
+      font-size: 22px;
+}
+
+.project-card {
+       max-width: 900;
+       margin: auto;
+       background: #f8fafc;
+       border-radius: 15px;
+       overflow: hidden;
+       box-shadow: 0 5px 20px; rgba(0,0,0,0.15);
+
+}
+
+.project-card img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.project-info {
+      padding: 30px;
+}
+
+.project-info h3 {
+      color: #123c69;
+      font-size: 25px;
+      margin-bottom: 15px;
+}
+
+/* Contact */
+#contact {
+    background: #123c69;
+    color: white;
+}
+
+#contact h2 {
+     color: white;
+}
+
+#contact p {
+       margin-bottom: 20px;
+}
+
+.email-button {
+     display: inline-block;
+     background: white;
+     color: #123c69;
+     padding: 15px 30px;
+     border-radius: 30px;
+     text-decoraion: none;
+     font-weight: bold;
+     font-size: 18px;
+}
+
+.email-button:hover {
+      background: #ffd700;
+      color: #123c69;
+}
+
+/* Footer */
+footer {
+     background: #111827;
+     color: white;
+      padding: 25px;
+}
+
+footer p {
+     font-size: 15px;
+}
+
+/* Mobile */       
+@media (max-width: 700px) {
+
+      .logo {
+            font-size: 22px
+      }
+
+      .menu a {
+           display: inline-block;
+           margin: 5px;
+           font-size: 15px;
+      }
+
+      h1 {
+          font-size: 32px;
+      
+      }
+
+      h2 {
+           font-size: 28px;
+      }
+
+      .hero {
+            min-height: 450px;
+      }
+
+      .hero p {
+           font-size: 17px;
+      }
+
+      .card {
+           width: 100%;
+           max-width: 350px;
+          }
+       } 
+     
+   
+
+
+
+
+
+
+
+
+
+     
